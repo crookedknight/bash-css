@@ -42,8 +42,110 @@ h7:after {
 }
 
 .shitkicker {
+    display: flex;h7:before {
+    margin-right: 20px;
+    background: linear-gradient(90deg, rgba(230,73,73,1) 0%, rgba(164,13,13,1) 50%, rgba(130,8,8,1) 100%);
+} 
+
+h7:after {
+    margin-left: 20px;
+    background: linear-gradient(90deg, rgba(130,8,8,1) 0%, rgba(164,13,13,1) 50%, rgba(230,73,73,1) 100%);
+}
+
+.titletext1 b {
+    background: -webkit-linear-gradient(90deg, rgba(130,8,8,1) 0%, rgba(164,13,13,1) 25%, rgba(230,73,73,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.titletext1 {
+    font-size: 1.45em;
+    text-align: center;
+    width: 80%;
+    padding: 10px 0px;
+	background:#fff;
+}
+.searchbar {
+    display: flex;
+    border: 1px solid black;
+}
+
+.search.button {
+    background: black;
+    width: 20%;
+}
+
+.search.button {
+    background: #000;
+    color: #fff;
+    width: 20%;
+    text-align: center;
+    padding: 14px;
+    margin: 
+	0px;
+}
+
+.shitkicker block {
+    width: 50%;
+}
+
+.shitkicker {
     display: flex;
     width: 100%;
+    margin: 0 auto;
+}
+
+.shitkicker block {
+    width: 50%;
+    margin: 3%;
+}
+
+.shitflex {
+    width: 50%;
+    margin: 0 auto;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.shitkicker block.quickfo {
+    width: unset;
+    text-transform: uppercase;
+    font-size: 10px;
+    letter-spacing: 1px;
+    padding: 20%;
+}
+.result {
+    text-align: justify;
+}
+
+.result span {
+    background: -webkit-linear-gradient(90deg,#820808 0,#a40d0d 25%,#e64949 100%);
+    -webkit-background-clip: text;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+}
+
+.result em {
+    background: -webkit-linear-gradient(90deg,#820808 0,#a40d0d 25%,#e64949 100%);
+    -webkit-background-clip: text;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+}
+
+.quickfo span {
+    background: -webkit-linear-gradient(90deg,#820808 0,#a40d0d 25%,#e64949 100%);
+    -webkit-background-clip: text;
+    font-weight: 700;
+    -webkit-text-fill-color: transparent;
+}
+
+.result h1 {
+    text-transform: uppercase;
+    margin: 5px 0;
+    letter-spacing: 0.2em;
+    padding-bottom: 4px;
+}    width: 100%;
     margin: 0 auto;
 }
 
